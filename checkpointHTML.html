@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="checkpointHTML.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <ul class="nav-list">
+            <li class="nav-item"><a href="#accueil">Accueil</a></li>
+            <li class="nav-item"><a href="#a-propos">A propos</a></li>
+            <li class="nav-item"><a href="#travaux">Travaux</a></li>
+            <li class="nav-item"><a href="#CV">CV</a></li>
+            <li class="nav-item"><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Section Accueil -->
+    <section id="accueil" class="section accueil">
+        <h2 class="section-title">Bienvenue sur mon Portfolio</h2>
+        <img src="votrephoto.jpg" alt="photo de [votre nom]" class="profile-photo">
+        <p class="intro-text">Je suis [votre nom], développeur web et designer passionné par la création de sites web innovants et élégants.</p>
+    </section>
+
+    <!-- Section A propos -->
+    <section id="a-propos" class="section a-propos">
+        <h1 class="section-title">A propos de moi</h1>
+        <p>Je suis un développeur web avec [nombre] années d'expérience, spécialisé en HTML, CSS, JavaScript, et frameworks modernes...</p>
+        <ul class="skills-list">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+        </ul>
+    </section>
+
+    <!-- Section Travaux -->
+    <section id="travaux" class="section travaux">
+        <h2 class="section-title">Mes travaux</h2>
+        <div class="projet">
+            <img src="projet1.jpg" alt="Projet 1" class="projet-image">
+            <p>Description du projet 1</p>
+            <a href="lienprojet1.html" class="projet-link">Voir le projet 1</a>
+        </div>
+        <div class="projet">
+            <video src="video-projet.mp4" type="video/mp4" class="projet-video"></video>
+            <p>Description du projet 2</p>
+        </div>
+    </section>
+
+    <!-- Section CV -->
+    <section id="CV" class="section cv">
+        <h2 class="section-title">Mon CV</h2>
+        <table class="cv-table">
+            <tr>
+                <th>Poste</th>
+                <th>Entreprise</th>
+                <th>Année</th>
+            </tr>
+            <tr>
+                <td>2022-présent</td>
+                <td>Développeur Senior</td>
+                <td>Tech Company</td>
+            </tr>
+            <tr>
+                <td>2020-2022</td>
+                <td>Développeur Junior</td>
+                <td>WebStart</td>
+            </tr>
+        </table>
+    </section>
+
+    <!-- Section Contact -->
+    <section id="contact" class="section contact">
+        <h2 class="section-title">Contactez-moi</h2>
+        <form action="submit-form.php" method="post" class="contact-form">
+            <label for="nom">Nom :</label>
+            <input type="text" id="nom" name="nom" required>
+            <label for="email">Email :</label>
+            <input type="email" id="email" name="email" required>
+            <label for="sujet">Sujet :</label>
+            <input type="text" id="sujet" name="sujet" required>
+            <label for="message">Message :</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Envoyer</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>2024 [wiem Rezgui]</div>. Tous droits réservés.</p>
+        <p>Contact : <a href="mailto:votreemail@example.com">rezguiwiem9@gmail.com</a></p>
+        <div class="social-media">
+            <a href="https://twitter.com/votreprofil" target="_blank">Twitter</a>
+            <a href="https://linkedin.com/in/votreprofil" target="_blank">LinkedIn</a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
